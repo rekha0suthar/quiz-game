@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  background-color: #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.question p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.question p:hover {
+  background-color: bisque;
+}
+
+.result {
+  text-align: center;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.result div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result div p {
+  font-size: 18px;
+}
